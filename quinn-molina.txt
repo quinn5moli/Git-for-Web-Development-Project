@@ -1,0 +1,77 @@
+    https://codepen.io/quinn5moli/pen/OJbdLxm?editors=1100
+    1. What is Semantic HTML? 
+Semantic HTML is HTML that introduces meaning to the web page rather than just presentation.
+    2. What is HTML used for? 
+    HTML allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications.
+    3. What is an attribute and where do we put it?
+    Attributes provide additional information about HTML elements and are to be put in the starting element.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    5. Name two tags that have required attributes
+    Anchor and image tags require attributes.
+    6. What do we put in the head of our HTML document? 
+    We put metadata in the head of our HTML document.
+    7. What is an id? 
+    An id attribute specifies a unique id for an HTML element and must be unique within the HTML document.
+    8. What elements can I add an id to? 
+    You can add id to elements such as div, span, p, h1, footer, among others.
+    9. How many times can I use the same id on a page? 
+    You cannot, they must be unique.
+    10. What is a class? 
+    The class attribute is used to specify a class for an element; multiple elements can have the same class.
+    11. What elements can I add a class to? 
+    h1, p, footer, div, among others.
+    12. How many times can I use the same class on a page? 
+    You can use the same class as many times as you would like on the same page.
+    13. How do I get my link to open in a new tab?
+    To create a link on a web page, you need to wrap an element in an anchor element and set its href attribute to the URL for the desired link. To open a link in a new tab, set the "target" attribute to "_blank" and add a "rel" attribute set to "noopener noreferrer."
+    14. What is the alt attribute in the image tag used for? 
+    The alt attribute specifies an alternate text for an image, if the image cannot be displayed.
+    15. How do I reference an id?
+    The #id selector styles the element with the specified id.
+    16. What is the difference between a section and a div
+    The section element is a semantic section of a web page or site, whereas the div element specifies parts of the page that you want to divide up for purposes other than semantics- possibly with CSS.
+    17. What is CSS used for? 
+    CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+    18. How to we select an element? Example - every h2 on the page
+    Make a CSS selector. For the example, make an h2 CSS selector. 
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Class can be used by multiple elements whereas respective id attributes can onlt be set to one element per HMTL document.
+    20. How do we select classes in CSS?
+    To select a specific class write a period character, followed by the name of the class.
+    21. How do we select a p element with a single class of “human””?
+    To select a p element with the single class of human you list p then a period before the name of the class to use a element.class selector. In this case: p.human 
+    22. What is a parent child selector? When would this be useful? 
+    The ("parent > child") selector selects all elements that are a direct child of the specified element. For example $("div > p") would select all p elements that are a direct child of div. 
+    23. How do you select all links within a div with the class of sidebar?
+    Spell out the sidebar class, within the div that has the desired links you wish to style, using the class selector twice. Each of these will have an anchor element, one will have a links selector while the other will have a visited selector. 
+    24. What is a pseudo selector?
+    A pseudo-selector that selects a class that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer.
+    25. What do we use the change the spacing between lines?
+    To change the spacing between lines use the line-height elements with the measurements of px or em.
+    26. What do we use to change the spacing between letters?
+    To change the spacing between letters use the letter spacing element and specify with the measurements of px or em.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    Use the element of text-transform and set it to capitals, lowercase, or capitalize to get the desired style.
+    28. How do I add a 1px border around my div that is dotted and black?
+    Create a style attribute with the input of "border: 1px dotted black"
+    29. How do I select everything on the page? 
+    Use the universal selector which is the character: *
+    30. How do I write a comment in CSS?
+    A CSS comment is placed inside the <style> element, and starts with /* and ends with */
+    31. How do I find out what file I am in, when I am using the command line? 
+    Type in the pwd command.
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    Use the command "ls-la"
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    Use the "rm" command. You have to be careful because it will delete the file permanently.
+    34. Why should I use version control? 
+    Version control is useful because it can help maintain multiple versions of a project. It is also useful when we want to see the difference between different versions of a project or if we want to review the history of a particular project.
+    35. How often should I commit to github?
+    I should commit every time I make a change to a project I want to have saved/reviewed.
+    36. What is the command we would use to push our repo up to github? 
+    Use the git push origin master command to push our repo to github.
+    37. Walk me through Lambda's git flow. 
+        a. Create a fork of the repo
+        b. Clone the repo
+        c. Create a branch using "git checkout -b 'branch name'"
+        d. Create a pull request to submit work.
